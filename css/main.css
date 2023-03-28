@@ -118,7 +118,6 @@ figure {
 img {
   width: 100%;
   border: #FF0032 3px solid;
-  /*transform: rotate(-10deg);*/
 }
 
 h1,
@@ -131,11 +130,11 @@ h3 {
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.7em;
 }
 
 h3 {
@@ -175,11 +174,6 @@ span {
 }
 
 /*----- Header Styles -----*/
-
-header {
-  padding-top: 30px;
-}
-
 header .wrapper {
   display: flex;
   justify-content: center;
@@ -256,22 +250,17 @@ header h2 {
 }
 
 /*----- Footer Styles -----*/
-
-footer {
-  font-size: 0.9em;
-  padding-bottom: 30px;
-}
-
 footer .wrapper {
   display: flex;
-  flex-direction: column;
+  flex-flow: column nowrap;
+  justify-content: center;
   align-items: center;
   gap: 20px;
 }
 
 .interests {
   display: flex;
-  flex-direction: column;
+  flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
 }
@@ -375,26 +364,26 @@ footer ul {
 @media only screen and (min-width: 768px) {
   /*--------------- TABLET STYLES HERE ----------------*/
   .wrapper {
-    margin: 20px 70px;
+    margin: 30px 100px;
   }
 
   h1 {
-    font-size: 3em;
+    font-size: 2.3em;
   }
   
   h2 { 
-    font-size: 2.5em;
+    font-size: 2em;
   }
   
   h3,
   p,
   ul,
   .description {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   img {
-    height: 500px;
+    height: 350px;
     width: auto;
   }  
 
@@ -411,15 +400,15 @@ footer ul {
   }
 
   h1 {
-    font-size: 4em;
-  }
-  
-  h2 {
     font-size: 3em;
   }
   
-  h3 {
+  h2 {
     font-size: 2.5em;
+  }
+  
+  h3 {
+    font-size: 2em;
   }
 
   img {
