@@ -118,7 +118,7 @@ figure {
 
 img {
   width: 100%;
-  border: #2f7d54 5px outset;
+  border: #80249C 5px outset;
 }
 
 h1,
@@ -281,6 +281,7 @@ footer .wrapper {
 }
 
 footer ul {
+  color: black;
   margin: 0;
   padding: 0;
   list-style-type: ' ♦ ';
